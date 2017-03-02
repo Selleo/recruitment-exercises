@@ -1,5 +1,5 @@
-require 'hand'
-require 'card'
+require_relative 'hand'
+require_relative 'card'
 
 RSpec.describe Hand do
   describe '.new' do

@@ -1,4 +1,4 @@
-require 'car'
+require_relative 'car'
 
 RSpec.describe Car do
   describe '.new' do

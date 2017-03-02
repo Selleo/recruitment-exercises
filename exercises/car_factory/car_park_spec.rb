@@ -1,5 +1,5 @@
-require 'car_park'
-require 'car'
+require_relative 'car_park'
+require_relative 'car'
 
 RSpec.describe CarPark do
   describe '#capacity' do

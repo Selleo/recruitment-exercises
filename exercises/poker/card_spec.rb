@@ -1,4 +1,4 @@
-require 'card'
+require_relative 'card'
 
 RSpec.describe Card do
   describe '.new' do

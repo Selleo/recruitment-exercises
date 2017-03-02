@@ -1,7 +1,7 @@
-require 'poker_table'
-require 'hand'
-require 'card'
-require 'combination'
+require_relative 'poker_table'
+require_relative 'hand'
+require_relative 'card'
+require_relative 'combination'
 
 RSpec.describe PokerTable do
   describe '.new' do
