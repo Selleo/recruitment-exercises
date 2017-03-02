@@ -12,7 +12,7 @@ przy czym losowane powinno być 7 i odrzucane największa i najmniejsza.
 Jeśli wynik rzutu byłby z przedziału 1-7, to należy wykonać kolejny rzut, kością k30.
 Jeśli wypadnie 1, to wynik działania gdzie losowane jest 7 liczb a najwieksza i najmniejsza jest odrzucona powinien być zmieniony na: dwie najmniejsze liczby są odrzucane.
 
-6. W kolejnej iteracji, jeśli inicjujące losowanie k30 zwróci wynik z przedziału 24-30, to dodatkowy rzut (patrz 3)) powinien zawsze przyjmować wartość 25.
+6. W kolejnej iteracji, jeśli inicjujące losowanie k30 zwróci wynik z przedziału 24-30, to dodatkowy rzut (patrz 4)) powinien zawsze przyjmować wartość 25.
 
 7. W kolejnej iteracji po uruchomieniu skryptu, powinno się wyświetlać na ekranie "Twój set to: #{wyniki}. Czy jesteś zadowolony?".
 Po czym pojawia się prompt przyjmujący input od użytkownika komputera.
