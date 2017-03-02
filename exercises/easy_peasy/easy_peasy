@@ -1,5 +1,3 @@
-# zadanie 1
-
 Napisz metodę, która zapisuje poniższy hash do pliku `input.json`
 
 ```
@@ -43,21 +41,3 @@ Napisz drugą metodę, która wczytuje plik `input.json`, dopisuje do każdego b
   </hero>
 </data>
 ```
-
-# zadanie 2
-
-Stwórz prostą aplikację railsową w której będą cztery modele:
-- User: `first_name:string, last_name:string, email:string`
-- Profile: `user_id:integer, phone_number:string, accepted_at:date`
-- Availability: `user_id:integer, day_off:date`
-- Job: `name:string, start_date:date, end_date:date`
-
-Wypełnij bazę danych za pomocą `seed.rb`, tak aby:
-- była praca ze start_date: `02-01-2017` i end_date: `04-01-2017`
-- był użytkownik, który nie ma profilu
-- był użytkownik, który ma profil z numerem telefonu, profil nie jest zaakceptowany
-- był użytkownik, który ma profil z numerem telefonu, jest zaakceptowany, użytkownik nie ma dni wolnych
-- był użytkownik, który ma profil z numerem telefonu, jest zaakceptowany, użytkownik ma dwa dni wolne: `01-01-2017` i `05-01-2017`
-- był użytkownik, który ma profil z numerem telefonu, jest zaakceptowany, użytkownik ma dwa dni wolne: `02-01-2017` i `10-01-2017`
-
-Stwórz metodę w modelu `Job`, która dla danej `job` znajdzie wszystkich użytkowników, którzy mają zaakceptowany nr telefonu i nie mają dnia wolnego wtedy, kiedy ma się odbyć dana praca
