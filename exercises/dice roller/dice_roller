@@ -5,11 +5,12 @@ Czyli tak naprawdę wyniku rzutu kością k20.
 przy czym losowane powinno być 7 i odrzucane największa i najmniejsza.
 
 3. Skrypt powinien losować liczby tak długo, aż suma 5ciu liczb (po odrzuceniu największej i najmniejszej) jest większa niż 55.
+Kolejność wylosowanych liczb powinna pozostać niezmnieniona!
 
 4. W kolejnej iteracji do wyniku 5 liczb(patrz pkt 2) powinien być losowany i dodawany 6-sty rzut kostką.
 
-5. W kolejnej iteracji, przed losowaniem zestawu liczb(patrz pkt 2), powinien być wykonany rzut kością k30 (przedział 1-30).
-Jeśli wynik rzutu byłby z przedziału 1-7, to należy wykonać kolejny rzut, kością k30.
+5. W kolejnej iteracji, przed losowaniem zestawu liczb(patrz pkt 2), powinien być wykonany jeden rzut kością k30 (przedział 1-30).
+Jeśli wynik rzutu byłby z przedziału 1-7, to należy wykonać kolejny jeden rzut, kością k30.
 Jeśli wypadnie 1, to wynik działania gdzie losowane jest 7 liczb a najwieksza i najmniejsza jest odrzucona powinien być zmieniony na: dwie najmniejsze liczby są odrzucane.
 
 6. W kolejnej iteracji, jeśli inicjujące losowanie k30 zwróci wynik z przedziału 24-30, to dodatkowy rzut (patrz 4)) powinien zawsze przyjmować wartość 25.
