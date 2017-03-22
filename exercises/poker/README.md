@@ -15,4 +15,4 @@ Usual tasks:
 
 Reference
 
-![Poker hands](http://img.rankplan.net/p/3/pokerhands_big.jpg)
+![Poker hands](http://fathermuskrat.com/wp-content/uploads/2008/11/pokerchart.gif)
