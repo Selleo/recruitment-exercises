@@ -5,6 +5,7 @@ Requirements:
 1. The code which solves the problem should be contained within a github repository. Do not fork the original repository (i.e., this one).
 2. Each point in the specs section is a separate iteration. This means you have to wrap each iteration in a separate commit. Resetting the repository to a given commit (`git reset --hard shaID`) means that the code works according to the given implementation of the specs.
 3. The code has to be readable and well organized. Performance is not a factor. Not complying strictly to the specs is a disqualification.
+4. Please copy and include the specification in your solution.
 
 General constraints:
 1. It is extremly important not to change the order of the rolls.
