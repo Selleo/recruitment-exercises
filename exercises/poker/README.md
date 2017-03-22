@@ -1,4 +1,4 @@
-Ruby: 2.1.3
+Ruby: 2.1.3+ (feel free to use any ruby version you want)
 
 ```
 rvm use 2.1.3@conundrum --create
