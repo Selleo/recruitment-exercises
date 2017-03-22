@@ -17,4 +17,4 @@ Usual tasks:
 
 Reference
 
-![Poker hands](http://fathermuskrat.com/wp-content/uploads/2008/11/pokerchart.gif)
+![Poker hands](http://www.bestonlinecasino.tips/wp-content/uploads/2013/07/poker-hand-rankings3.png)
