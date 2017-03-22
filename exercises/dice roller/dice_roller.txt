@@ -1,33 +1,24 @@
-1. Po uruchomieniu skryptu zawartego w dice_roller.rb, w shellu powinna wyświetlać się losowa liczba z przedziału 1-20.
-Czyli tak naprawdę wyniku rzutu kością k20.
+The goal:
+We need a script which would behave as a fancy dice roll sets generator.
 
-2. W kolejnej iteracji wynik działania skryptu powinien zwracać 5 liczb (5 rzutów kością),
-przy czym losowane powinno być 7 i odrzucane największa i najmniejsza.
+Requirements:
+1. The code which solves the problem should be contained within a github repository. Do not fork the original repository (i.e., this one).
+2. Each point in the specs section is a separate iteration. This means you have to wrap each iteration in a separate commit. Resetting the repository to a given commit (`git reset --hard shaID`) means that the code works according to the given implementation of the specs.
+3. The code has to be readable and well organized. Performance is not a factor. Not complying strictly to the specs is a disqualification.
 
-3. Skrypt powinien losować liczby tak długo, aż suma 5ciu liczb (po odrzuceniu największej i najmniejszej)
-jest większa niż 55. Kolejność wylosowanych liczb powinna pozostać niezmnieniona!
+General constraints:
+1. It is extremly important not to change the order of the rolls.
+2. When it's not specified, we roll k20.
 
-4. W kolejnej iteracji do wyniku 5 liczb(patrz pkt 2) powinien być losowany i dodawany 6-sty rzut kostką. 
-Ten dodatkowy rzut nie powinien się jednak wliczać do "warunku 55" (patrz 3).
+Specs:
 
-5. W kolejnej iteracji, przed losowaniem zestawu liczb(patrz pkt 2), powinien być wykonany jeden rzut kością k30
-(przedział 1-30).Jeśli wynik rzutu byłby z przedziału 1-7, to należy wykonać kolejny jeden rzut, kością k30.
-Jeśli wypadnie 1, to wynik działania gdzie losowane jest 7 liczb a najwieksza i najmniejsza jest odrzucona powinien
-być zmieniony na: dwie najmniejsze liczby są odrzucane.
-
-6. W kolejnej iteracji, jeśli inicjujące losowanie k30 zwróci wynik z przedziału 24-30, to dodatkowy rzut (patrz 4))
-powinien zawsze przyjmować wartość 25.
-
-7. W kolejnej iteracji po uruchomieniu skryptu, powinno się wyświetlać
-na ekranie "Twój set to: #{wyniki}. Czy jesteś zadowolony?". Po czym pojawia się prompt przyjmujący input od użytkownika
-komputera.Wpisanie "TAK" i potwierdzenie enterem powoduje przerwanie skryptu. Każdy inny input ponawia działanie skryptu.
-
-8. Iteracja bonusowa: zrefaktoruj swój kod używając konceptu rekurencji.
-
-
-Wymagania:
-1. Kod Ruby rozwiazujacy ten problem powinien znajdowac sie w repozytorium na github.com
-2. Każda iteracja powinna zawierać się we własnym osobnym commicie.
- Zresetowanie repozytorium do dowolnego commitu(git reset --hard shaID) sprawia, że kod działa
- i robi to co na daną iterację miał wyspecyfikowane.
-
+1. Please write a script called `dice_roller.rb`. When launched using shell (`ruby dice_roller.rb`) it should display a randomly generated number from 1-20 range. Imagine this as rolling a twenty sided dice (k20).
+2. In this iteration, running the `dice_roller.rb` should return 5 randomly generated numbers (five dice rolls).
+However, the script should obtain the set by initially generating 7 dice rolls and excluding the highest and the lowest ones! It is extremly important not to change the order of the numbers.
+3. The script should generate the sets as long as the sum of the 5 randomly generated numbers is higher than 55.
+However the rolls dropped by satisyfing specification in the point 2) should not count to the `at least 55 rule`!
+4. In this iteration we would like to perforam additional roll, which would be appended to the set as last. Again, this should not count for the `at least 55 rule`.
+5. Before performing the roll specified in the point 2) generate a random number from within 1 - 30 range (i.e., roll a k30). If the result is contained within the 1-7 range (included), perform another k30 roll. Then if the result of additional roll is 1, write a logic which changes the behavior of throwing away the highest and the lowest numbers mentioned in the point 2) to: exclude two lowest numbers from the set.
+6. Use the results of k30 dice rolls, specified in the point 5) to do the following: if the first roll is within the 1-7 range (included), and the second roll is within 24-30 (included), then the additional roll specified in the point 4) (aka "the sixth one") should always equal to 25.
+7. In this interation, running the `dice_roller.rb` script should display the following: "Your randomly generated set: #{results}. Are you happy?" and the input prompt. Entering anything than "YES!" restarts the script.
+8. Bonus iteration: refactor the code using reccurency.
