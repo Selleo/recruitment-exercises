@@ -13,3 +13,6 @@ Usual tasks:
 - Do not modify tests (sample implementation was written, so test are 99.99% ok and implementable)
 
 
+Reference
+
+![Poker hands](http://img.rankplan.net/p/3/pokerhands_big.jpg)
