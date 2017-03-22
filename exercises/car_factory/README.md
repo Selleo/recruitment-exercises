@@ -10,6 +10,5 @@ rspec <insert path to your specs here>
 Usual tasks:
 
 - Write implementation so all tests are green
+- Focus on code quality/readability/simplicity
 - Do not modify tests (sample implementation was written, so test are 99.99% ok and implementable)
-
-
