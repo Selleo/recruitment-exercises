@@ -1,7 +1,9 @@
-Ruby: 2.1.3+ (feel free to use any ruby version you want)
+Ruby: 2.4+ (feel free to use any ruby version you want)
+
+E.g.
 
 ```
-rvm use 2.1.3@conundrum --create
+rvm use 2.4.0@conundrum --create
 gem install rspec
 gem install require_all
 rspec <insert path to your specs here>
