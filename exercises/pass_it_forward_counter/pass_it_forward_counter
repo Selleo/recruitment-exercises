@@ -7,6 +7,9 @@ in turn does the same thing, until the desired number has been reached. Then it 
 It is important that the class should not know what is the current counter. 
 It is the responsibility of the instance of a class to have the aforementioned information and pass it forward.
 
+NOTE: It is important that the class should not know what is the current counter. 
+It is the responsibility of the instance to have that information and pass it forward.
+
 Things that will be considered when evaluating the code:
 - readability
 - simplicity
