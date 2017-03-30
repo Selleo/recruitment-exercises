@@ -4,8 +4,12 @@ Create a class that counts up to a given number (e.g. from 0 to 1000 or from -30
 When its' first instance does the counting, it increments the number by 1, then passes it forward to the next object, which
 in turn does the same thing, until the desired number has been reached. Then it should be returned by the program.
 
+It is important that the class should not know what is the current counter. 
+It is the responsibility of the instance of a class to have the aforementioned information and pass it forward.
+
 Things that will be considered when evaluating the code:
 - readability
 - simplicity
 - test coverage
 
+Please include the following file in the presented solution.
