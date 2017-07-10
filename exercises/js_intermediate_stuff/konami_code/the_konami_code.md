@@ -21,7 +21,7 @@ elixir language repository. To get the data just fetch JSON form this URL: https
 
 ## Prerequisites
 1) 'ESC' key cancels currently written part of the Konami Code
-2) Max timestamp beetween each next pressed key is 5 seconds(after that time Konami Code should be reseted)
+2) Max timestamp beetween each next pressed key is 5 seconds(after that time Konami Code should be reset)
 3) Size of the letter matters(upper/lower case)
 4) Do not use jQuery
 

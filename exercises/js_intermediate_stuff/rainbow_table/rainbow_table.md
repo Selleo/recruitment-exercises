@@ -8,7 +8,7 @@ Name | Email | Password
 Dariusz Wylon | d.wylon@selleo.com | c8e095e2a26f8540afabb36dcdaee3b1
 
 It looks like you have credentials but, ehmm.. the password is encrypted. The good news is that one of the team members get
-information about which encryption algorithm was used - it was MD5. This is a great news but decrypting this via brute forcing this will take years.
+information about which encryption algorithm was used - it was MD5. This is a great news, but decrypting this via brute force method will take years.
 After doing some observations and using some social technics you've figured out that Dariusz is big fan of Polish book called "Pan
 Tadeusz". It is a good point to start. Maybe his password is the same as name one of heroes from the book.
 
