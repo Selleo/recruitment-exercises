@@ -54,12 +54,12 @@ The good news is that one of the team members get information about which encryp
 
    So basicly it is <string string_as_hash>
 
-   - interface to your script should look like ```node word_list.txt``` and it should produce ```rainbow_word_list.txt```
+   - interface to your script should look like ```node firstScript.js word_list.txt``` and it should produce ```rainbow_word_list.txt```
    - every line should contain string and its representation as a md5
 
 3) The final step to get Mr. Wylon's password is to create a script that will break it. Implement script that will get the victim's password and uses rainbow table and outputs it as a string representation of password. You can reach this by comparing each hash from the rainbow table with the hash of Mr. Wylon's password. The matching one is the result.
 
-  - interface to your script should look like ```node rainbow_word_list.txt aab9e1de16f38176f86d7a92ba337a8d``` and it
+  - interface to your script should look like ```node secondScript.js rainbow_word_list.txt aab9e1de16f38176f86d7a92ba337a8d``` and it
     should outputs ```table``` - in your case hash, and output will be different
 
 To summarize - you need to implement 3 scripts and a result file:
