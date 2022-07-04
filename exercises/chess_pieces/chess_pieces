@@ -8,5 +8,19 @@ Important notes:
 1) Use TDD
 2) Do not overcomplicate it
 3) Each piece should be commited in separete commit with good commit description, 'asd' and 'work in progress' is not acceptable.
+4*) Visualize the movement of pieces using text format, for example:
 
 
+```
+o o o o o o o o
+o o o o o o o o
+o o o o o o o o
+o o o x x x o o
+o o o x K x o o
+o o o x x x o o
+o o o o o o o o
+o o o o o o o o
+
+K - king
+x - possible moves
+```
