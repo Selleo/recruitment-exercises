@@ -5,7 +5,7 @@ You are the leader of Anonymous - the group of hackers. For the last couple of m
 ## Tasks
 1) Create basic page with "Sweet kittens" header
 2) Add JavaScript code that will do the following things:
-    - After typing Konami Code 'inject<enter>s3crets' make a request for secret data(described under the task)
+    - After typing Konami Code `inject<enter>s3crets` make a request for secret data(described under the task)
     - Display 5 newest issues names and nickname of the author
     - After 15 seconds hide all issues
 
