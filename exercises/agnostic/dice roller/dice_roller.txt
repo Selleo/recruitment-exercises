@@ -1,5 +1,5 @@
 The goal:
-We need a script which would behave as a fancy dice roll sets generator.
+We need a script in Ruby/Typescript which would behave as a fancy dice roll sets generator.
 
 Requirements:
 1. The code which solves the problem should be contained within a github repository. Do not fork the original repository (i.e., this one).
@@ -13,13 +13,13 @@ General constraints:
 
 Specs:
 
-1. Please write a script called `dice_roller.rb`. When launched using shell (`ruby dice_roller.rb`) it should display a randomly generated number from 1-20 range. Imagine this as rolling a twenty sided dice (k20).
-2. In this iteration, running the `dice_roller.rb` should return 5 randomly generated numbers (five dice rolls).
+1. Please write a script that should display a randomly generated number from 1-20 range. Imagine this as rolling a twenty sided dice (k20).
+2. In this iteration, running the script should return 5 randomly generated numbers (five dice rolls).
 However, the script should obtain the set by initially generating 7 dice rolls and excluding the highest and the lowest ones! It is extremely important not to change the order of the numbers.
 3. The script should generate the sets until it meets the following criteria: the sum of the 5 randomly generated numbers is higher or equal to 55. Returning a set which doesn't sum up to at least 55, is not valid.
 However, the rolls dropped by satisfying specification in the point 2) should not count to the `at least 55 rule`!
 4. In this iteration we would like to perform additional roll, which would be appended to the set as last. Again, this should not count for the `at least 55 rule`.
 5. Before performing the roll specified in the point 2) generate a random number from within 1 - 30 range (i.e., roll a k30). If the result is contained within the 1-7 range (included), perform another k30 roll. Then if the result of additional roll is 1, write a logic which changes the behavior of throwing away the highest and the lowest numbers mentioned in the point 2) to: exclude two lowest numbers from the set.
 6. Use the results of k30 dice rolls, specified in the point 5) to do the following: if the first roll is within the 1-7 range (included), and the second roll is within 24-30 (included), then the additional roll specified in the point 4) (aka "the sixth one") should always equal to 25.
-7. In this iteration, running the `dice_roller.rb` script should display the following: "Your randomly generated set: #{results}. Are you happy?" and the input prompt. Entering anything other than "YES!" restarts the script.
+7. In this iteration, running the script should display the following: "Your randomly generated set: #{results}. Are you happy?" and the input prompt. Entering anything other than "YES!" restarts the script.
 8. Bonus iteration: refactor the code using recurrence.

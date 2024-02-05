@@ -14,7 +14,7 @@ The day will consist of multiple tournaments. However each game can only be play
 
 ## Tasks
 
-* Create a Ruby script that implements aforementioned classes.
+* Create a Ruby/Typescript script that implements aforementioned classes.
 * Prepare some example data for possible `Players` and `Games`.
 * Implement planning logic for `TournamentPlanner` taking into account the rules and constraints.
 * Prints out final game turnaments schedule (each row consists of Game name, list of player names). Consider implementing `#to_s` method of each class to simplify printing.

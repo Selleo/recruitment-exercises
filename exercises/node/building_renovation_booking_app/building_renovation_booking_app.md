@@ -1,4 +1,4 @@
-## Buildings renovation agency Rails application
+## Buildings renovation agency application
 
 Manager needs to book contractors for renovation work in given buildings.
 
