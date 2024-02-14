@@ -4,7 +4,7 @@ In this exercise we’d like to create a storage app that will ressemble popular
 
 ## Tier 1
 
-We’d like to create a Node/Bun API server (you can use any package you’d like to) that will have the following functionalities and endpoints.
+We’d like to create a Node/Bun API server in Typescript (you can use any package you’d like to) that will have the following functionalities and endpoints.
 
 - folder on the disk containing any files
 - Ability to list the files and directories
