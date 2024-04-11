@@ -1,5 +1,7 @@
 # MoviesDatabase
 
+Using Nest with Typescript to prepare following app
+
 Consider three models:
 1) Actor [first name, last name]
 2) Movie [name, revenue]
